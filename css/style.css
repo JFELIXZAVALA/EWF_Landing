@@ -68,6 +68,12 @@ textarea::placeholder {
 	text-align: center;
 	margin-bottom: 40px;
 }
+.center-title-bottom {
+	font-size: 42px;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}
 .center-title::after {
 	content: '';
 	height: 1px;
@@ -831,7 +837,9 @@ textarea::placeholder {
 }
 /* Why END */
 
-
+.text-center {
+    text-align: center;
+}
 
 /* Team START */
 .s-team {
@@ -1024,6 +1032,9 @@ textarea::placeholder {
 }
 .footer-row {
 	display: flex;
+    padding: 60px 40px;
+    text-align: center;
+
 }
 
 .footer-left {
